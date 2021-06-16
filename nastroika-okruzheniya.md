@@ -26,7 +26,7 @@ node
 **Установка Truffle**
 
 Итак, следующим шагом будет установка Truffle: [**https://www.trufflesuite.com/truffle**](https://www.trufflesuite.com/truffle)  
-Для этого в консоли нужно запустить команду:
+Для этого в консоли нужно запустить команду \(флаг -g означает, что truffle станет доступен как команда из любой директории\):
 
 ```
 npm install truffle -g
