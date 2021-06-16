@@ -16,9 +16,10 @@ description: Устанавливаем Node.js и Truffle Suite
 ****После установки в консоли должна стать доступна команда `node` запускающая js-консоль:
 
 ```text
-crypto-hero@Mac ~ % node -v
-v16.3.0
+node
 ```
+
+Для выхода из консоли нужно дважды нажать Cmd+C
 
 В комплекте с Node.js идет пакетный менеджер npm. Он понадобится для установки пакетов.
 
@@ -30,6 +31,19 @@ v16.3.0
 ```
 npm install truffle -g
 ```
+
+{% hint style="warning" %}
+Возможно, что во время установки возникнет ошибка
+
+`npm ERR! The operation was rejected by your operating system.  
+npm ERR! It is likely you do not have the permissions to access this file as the current user`
+
+В таком случае команду следует перезапустить с sudo
+
+```bash
+sudo npm install truffle -g
+```
+{% endhint %}
 
 **Установка Ganache** 
 
